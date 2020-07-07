@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.patrimoniosEmpresa.MainApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.299 s - in br.com.patrimoniosEmpresa.MainApplicationTests
