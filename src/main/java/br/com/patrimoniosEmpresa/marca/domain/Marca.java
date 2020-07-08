@@ -6,14 +6,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import lombok.AccessLevel;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Setter
-@Getter
-@EqualsAndHashCode
+@Data
 @NoArgsConstructor(access = AccessLevel.PRIVATE, force = true)
 @Entity
 public class Marca {

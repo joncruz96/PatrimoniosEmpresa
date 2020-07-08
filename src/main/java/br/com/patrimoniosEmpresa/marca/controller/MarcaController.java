@@ -100,7 +100,7 @@ public class MarcaController {
 		/* Realizar exclusão se existir id de Marca */
 		if (marca.isPresent()) {
 			/* Verifica se esta marca está vinculada a algum Patrimonio cadastrado */
-			if(!patrimonio.isPresent()) {
+			if(patrimonio.isPresent()) {
 				throw new MarcaVinculadaPatrimonioException(id.toString());
 			}
 			marcaRepository.deleteById(id);
